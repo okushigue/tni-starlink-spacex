@@ -1,20 +1,13 @@
-# Transient Node Integration (TNI)
-Starship / Falcon upper stage joins Starlink laser mesh from 150 km → saves 8–45 m/s Δv per flight
+ README.md << 'EOF'
+# TNI & TNI-R — Transient Node Integration  
+Navegação orbital <30 mm / <1 mm/s + rendezvous autônomo usando Starlink laser mesh  
+Delta-v economizado: 8–73 m/s por missão (só software + terminal já existente)
 
-Author: Jefferson M. Okushigue – Hamamatsu/Japan 
-Contact: okushigue@gmail.com | WhatsApp +81 090 3555 0574
+**Propostas técnicas completas**  
+[Technical_Proposal_Transient.pdf](Technical_Proposal_Transient.pdf) – 1 página (para Elon)  
+[TNI-R_Laser-Guided_Orbital_Refueling_Technical_Proposal.pdf](TNI-R_Laser-Guided_Orbital_Refueling_Technical_Proposal.pdf) – 9 páginas (detalhado)
 
-### Key facts
-- Hardware: existing Starlink Gen2 laser terminal (<8 kg, <80 W)  
-- Protocol change: 1 new message type + TTL=1800 s  
-- Accuracy: <30 mm position, <2 mm/s velocity (no GPS, no ground tracking)  
-- Δv saved: 8–45 m/s per flight (eliminates nearly all insertion correction burns)  
-- Roadmap: ground demo Q1 2026, in-orbit demo Q3 2026
+**Paper arXiv-style no Zenodo**  
+[![DOI](https://zenodo.org/badge/latestdoi/999999999.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) (DOI sai em <24h após upload)
 
-[1-page proposal PDF](Technical_Proposal_Transient.pdf)  
-[Real-time simulation – runs with Python + Pygame](tni_simulator.py)
-
-MIT licensed – ready for review or direct implementation in 2026 flights.
-
-Open for discussion or collaboration.  
-Jefferson M. Okushigue – Japan
+python tni_simulation.py
