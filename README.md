@@ -8,6 +8,6 @@ Delta-v economizado: 8–73 m/s por missão (só software + terminal já existen
 [TNI-R_Laser-Guided_Orbital_Refueling_Technical_Proposal.pdf](TNI-R_Laser-Guided_Orbital_Refueling_Technical_Proposal.pdf) – 9 páginas (detalhado)
 
 **Paper arXiv-style no Zenodo**  
-[![DOI](https://zenodo.org/badge/latestdoi/999999999.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) (DOI sai em <24h após upload)
+[![DOI](https://zenodo.org/badge/latestdoi/999999999.svg)](https://doi.org/10.5281/zenodo.17809868) (DOI sai em <24h após upload)
 
 python tni_simulation.py
